@@ -5,7 +5,8 @@ const getAllPost = (req,res,next)=>{
 }
 
 const addNewPost = (req,res,next)=>{
-    res.send('add new post')
+    console.log(req.body) 
+    res.send(req.body)
 }
 
 

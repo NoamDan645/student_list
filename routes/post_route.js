@@ -14,5 +14,6 @@ const post = require('../controllers/post.js')
 
 
 router.get('/',post.getAllPost)
+router.get('/:id',post.getPostById)
 router.post('/',post.addNewPost)
 module.exports = router
